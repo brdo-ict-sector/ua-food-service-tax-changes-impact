@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# previous file versions
+_old_text_versions/
+
 # Session Data files
 .RData
 .RDataTmp
