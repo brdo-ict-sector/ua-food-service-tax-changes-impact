@@ -270,7 +270,7 @@ ggplot(df_scn1 %>% sample_n(min(nrow(.), 10000)) %>% arrange(Revenue),
 ```
 
 ```{r}
-#| echo: false
+#| include: false
 
 
 df_scn1 |> filter(Group == '2 група, ССО') |> pull(Effective_Rate_Current_Pct) |> range()
@@ -344,7 +344,7 @@ ggplot(df_scn2 %>% sample_n(min(nrow(.), 10000)) %>% arrange(Revenue),
 ```
 
 ```{r}
-#| echo: false
+#| include: false
 # частка ФОП, на яких вплине встановлення порогу в 4.16 млн грн
 
 df_scn2 |> filter(Revenue >= THRESHOLD_SCN2) |> nrow() /
