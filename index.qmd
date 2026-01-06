@@ -367,7 +367,7 @@ N_BUSINESSES_TOTAL *
 ```
 
 ```{r}
-#| eval: false
+#| echo: false
 
 stats_scn2 <- df_scn2 %>%
   group_by(Group) %>%
