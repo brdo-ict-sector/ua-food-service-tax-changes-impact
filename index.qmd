@@ -270,7 +270,7 @@ ggplot(df_scn1 %>% sample_n(min(nrow(.), 10000)) %>% arrange(Revenue),
 ```
 
 ```{r}
-#| include: false
+#| echo: false
 
 
 df_scn1 |> filter(Group == '2 група, ССО') |> pull(Effective_Rate_Current_Pct) |> range()
