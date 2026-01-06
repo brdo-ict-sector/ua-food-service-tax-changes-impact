@@ -377,10 +377,10 @@ stats_scn2 <- df_scn2 %>%
   )
 
 
-mean(df_scn2$Is_VAT_Payer)
-
-df_scn2 |> filter(Is_VAT_Payer == TRUE) |> nrow() /
-  df_scn2 |> nrow()
+# mean(df_scn2$Is_VAT_Payer)
+# 
+# df_scn2 |> filter(Is_VAT_Payer == TRUE) |> nrow() /
+#   df_scn2 |> nrow()
 ```
 
 |  |  |  |
